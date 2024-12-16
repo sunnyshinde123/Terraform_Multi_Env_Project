@@ -1,0 +1,10 @@
+
+terraform.tfstate
+.terraform.lock.hcl
+.terraform/providers/registry.terraform.io/hashicorp/aws/5.80.0/linux_amd64/LICENSE.txt
+.terraform/providers/registry.terraform.io/hashicorp/aws/5.80.0/windows_amd64/LICENSE.txt
+terraform.tfstate.backup
+terraform-key
+.terraform/providers/registry.terraform.io/hashicorp/aws/5.80.0/windows_amd64/terraform-provider-aws_v5.80.0_x5.exe
+.terraform/providers/registry.terraform.io/hashicorp/aws/5.80.0/linux_amd64/terraform-provider-aws_v5.80.0_x5
+

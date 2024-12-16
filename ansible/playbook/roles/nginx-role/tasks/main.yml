@@ -1,0 +1,18 @@
+---
+  - name: Installing nginx
+    apt:
+      name: nginx
+      state: latest
+
+  - name: Enable nginx
+    service:
+      name: nginx
+      enabled: yes
+
+  - name: Copy the index.html file and paste it into the var/www/index.html
+    copy:
+      src: index.html
+      dest: /var/www/html
+
+
+  

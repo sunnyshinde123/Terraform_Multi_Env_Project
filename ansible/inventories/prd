@@ -1,0 +1,6 @@
+[servers]
+
+[servers:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/ubuntu/terraform/terraform-module/terraform-key
+ansible_python_interpreter=/usr/bin/python3
